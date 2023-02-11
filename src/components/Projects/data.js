@@ -21,7 +21,7 @@ const data = [
     title: "Ping-Pong Game",
     desc: "Using HTML,CSS & Javascript",
     img: "pong.jpeg",
-    link: "https://harshgoyalcoder.github.io/Portfolio-Website/",
+    link: "https://harshgoyalcoder.github.io/Ping-Pong-GAME/",
   },
   {
     id: "4",
@@ -38,7 +38,7 @@ const data = [
     title: "To-Do List",
     desc: "Using React",
     img: "todo.png",
-    link: "https://harshgoyalcoder.github.io/Portfolio-Website/",
+    link: "https://harshgoyalcoder.github.io/To-Do-List/",
   },
 ];
 
