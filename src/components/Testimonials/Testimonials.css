@@ -1,0 +1,116 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+  color: var(--clr-grey-5);
+}
+
+
+.t-container{
+    background-color: rgb(255, 255, 255);
+    display:flex ;
+    flex-direction: column;
+    justify-content:center ;
+    text-align: center;
+    vertical-align: middle;
+    height: 35rem;
+    padding: 20px;
+}
+.review {
+  background: rgb(255, 255, 255);
+  padding: 2.5rem 7rem;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px hsl(206, 5%, 70%);
+  transition: all 0.3s linear;
+  text-align: center;
+  width: 37rem;
+  height: 25rem;
+  margin:  auto;
+  
+  
+  
+}
+.t-heading h1{
+  color:rgb(0, 149, 255);
+}
+
+.t-img-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+  box-shadow: 4px -3px 3px 2px cyan;
+  margin-bottom: 1.5rem;
+}
+.person-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+  /* position: relative; */
+}
+.quote-icon {
+  /* position:unset;
+  top: 50px;
+  left: 10; */
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 50%;
+  background:hsl(205, 78%, 60%);
+  color: #fff;
+  margin-top: -22px;
+}
+
+  .author {
+    margin-bottom: 0.25rem;
+    font-size: 2rem;
+  }
+   .job {
+    margin-bottom: 0.5rem;
+     text-transform: uppercase;
+    color: hsl(205, 78%, 60%); 
+    font-size: 0.85rem;
+    font-weight: bold;
+  }
+  .info {
+    margin-bottom: 0.75rem;
+  } 
+  .prev-btn, .next-btn {
+  color: hsl(208, 95%, 55%);
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 1rem 0.5rem;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+ .prev-btn:hover, .next-btn:hover {
+  color:  hsl(206, 14%, 45%);
+} 
+
+@media screen and (max-width: 800px) {
+  h4 {
+    font-size: 1rem;
+    line-height: 1;
+  }
+  .review{
+    width: 80%;
+  }
+}

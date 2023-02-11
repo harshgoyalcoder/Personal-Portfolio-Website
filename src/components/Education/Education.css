@@ -1,0 +1,94 @@
+.education-main {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  height: 90%;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  /* padding-top: 25px; */
+    /* margin-top: -170px; */
+    /* position: relative; */
+}
+ .heading-edu{
+  font-size: 3rem;
+  padding: 25px;
+  font-weight: bold;
+  color: rgb(10, 208, 252);
+ }
+.education {
+  width: 66rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  
+    height: 19rem;
+    width: 25rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px -8px rgb(10, 2, 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 29px;
+  transition: all 1.2s ease;
+  margin: 10px;
+}
+
+.card:hover {
+  transform: scale(1.08);
+  position: inherit;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user {
+  height: 60px;
+  width: 60px;
+  /* border-radius: 50%; */
+  object-fit: cover;
+  margin: 0 30px;
+}
+
+.center {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(250, 244, 245);
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+} 
+.bottom h3{
+  font-size: 1.5rem;
+  width: 18rem;
+}
+@media screen and (max-width: 800px){
+  .education {
+    width: auto;
+    height: 100%;
+    flex-direction: column;
+  }
+  
+  .card {
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px -8px rgb(10, 2, 2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 29px;
+    transition: all 1.2s ease;
+    margin: 12px;
+    width: 30rem;
+    height: 16rem;
+  }
+}
