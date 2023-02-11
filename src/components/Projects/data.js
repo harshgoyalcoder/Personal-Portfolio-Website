@@ -38,7 +38,7 @@ const data = [
     title: "To-Do List",
     desc: "Using React",
     img: "todo.png",
-    link: "https://harshgoyalcoder.github.io/To-Do-List/",
+    link: "https://harshgoyalcoder.github.io/To-Do-List/"
   },
 ];
 
